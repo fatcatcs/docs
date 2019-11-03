@@ -35,7 +35,7 @@ You can also override any of the options that were set in FlashComponent::
         'element' => 'success'
     ]);
 
-    // In your template file: Will use great_success.ctp instead of succcess.ctp
+    // In your template file: Will use great_success.ctp instead of success.ctp
     <?= $this->Flash->render('flash', [
         'element' => 'great_success'
     ]);
